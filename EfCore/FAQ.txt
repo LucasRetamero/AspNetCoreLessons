@@ -1,0 +1,14 @@
+//Create file to manager the projects
+dotnet new sln
+
+//Add reference of project to the sln
+dotnet slc add ./<path of project>.csproj
+
+//Create mvc project
+dotnet new mvc -o <name of project>
+
+//Create class of library
+dotnet new classlibrary -o <name of project>
+
+//Add reference to the projects
+dotnet add reference ../<Path of the project>

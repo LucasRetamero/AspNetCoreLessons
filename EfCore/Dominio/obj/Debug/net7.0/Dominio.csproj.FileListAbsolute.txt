@@ -1,0 +1,12 @@
+J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\bin\Debug\net7.0\Dominio.deps.json
+J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\bin\Debug\net7.0\Dominio.dll
+J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\bin\Debug\net7.0\Dominio.pdb
+J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\obj\Debug\net7.0\Dominio.dll
+J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\obj\Debug\net7.0\Dominio.pdb
+J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\obj\Debug\net7.0\ref\Dominio.dll
