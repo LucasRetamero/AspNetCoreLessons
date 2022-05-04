@@ -10,3 +10,5 @@ J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\obj\Debug\net7.0\D
 J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\obj\Debug\net7.0\refint\Dominio.dll
 J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\obj\Debug\net7.0\Dominio.pdb
 J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\obj\Debug\net7.0\ref\Dominio.dll
+J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\bin\Debug\net7.0\Dominio.runtimeconfig.json
+J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Dominio\obj\Debug\net7.0\Dominio.genruntimeconfig.cache

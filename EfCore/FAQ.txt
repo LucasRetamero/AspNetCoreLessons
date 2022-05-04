@@ -12,3 +12,6 @@ dotnet new classlibrary -o <name of project>
 
 //Add reference to the projects
 dotnet add reference ../<Path of the project>
+
+//Execute cli ef core
+dotnet ef --startup-project ../<Patch of main project.csproj> <Example:database update>
