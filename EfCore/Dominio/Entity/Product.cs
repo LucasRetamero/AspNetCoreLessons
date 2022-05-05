@@ -8,5 +8,9 @@ namespace Dominio.Entity
 
       public Category category { get; set; }
 
+      public int categoryid { get; set; }
+
+
+
     }
 }

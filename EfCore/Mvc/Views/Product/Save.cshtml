@@ -1,0 +1,31 @@
+@model Dominio.Entity.Product
+
+@{
+    ViewData["Title"] = "Product Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Product Form</h1>
+</div>
+
+<div>
+    <form class="form-horizon" asp-action="Save" asp-controller="Product" method="POST">
+       <input type="text" class="form-control" asp-for="id" placeholder="Insert with the category"/>
+       <div class="form-group">
+       <label>Name:</label>
+       <input type="text" class="form-control" asp-for="name" placeholder="Insert with the category"/>
+       </div>
+       
+       <div class="form-group">
+       <label>Category:</label>
+       <select class="form-control" asp-for="categoryid" asp-items='@(new SelectList(@ViewBag.Category, "id", "name"))'>
+      <option value="default">Select category</option>
+    </select>
+       </div>
+      
+      </br>
+     <div class="form-group">
+      <button type="submit" class="btn btn-success">Save</button>
+      </div>
+    </form>
+</div>
