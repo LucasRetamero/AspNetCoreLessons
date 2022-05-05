@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = J:\Projects\AspNetCoreCourse\AspNetCoreLessons\EfCore\Mvc
 build_property._RazorSourceGeneratorDebug = 
 
+[J:/Projects/AspNetCoreCourse/AspNetCoreLessons/EfCore/Mvc/Views/Category/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [J:/Projects/AspNetCoreCourse/AspNetCoreLessons/EfCore/Mvc/Views/Category/Save.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcU2F2ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

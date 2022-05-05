@@ -30,6 +30,6 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapControllerRoute(
     name: "category-route",
-    pattern: "{controller=Category}/{action=Save}/{id?}");
+    pattern: "{controller=Category}/{action=Home}/{id?}");
 
 app.Run();

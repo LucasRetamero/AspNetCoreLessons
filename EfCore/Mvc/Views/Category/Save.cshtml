@@ -1,10 +1,16 @@
 @model Dominio.Entity.Category
+
 @{
     ViewData["Title"] = "Category Page";
 }
 
+<div class="text-center">
+    <h1 class="display-4">Category Add</h1>
+</div>
+
 <div>
     <form class="form-horizon" asp-action="Save" asp-controller="Category" method="POST">
+     <input type="text" class="form-control" asp-for="id"/>
     <div class="form-group">
       <label>Name:</label>
       <input type="text" class="form-control" asp-for="name" placeholder="Insert with the category"/>

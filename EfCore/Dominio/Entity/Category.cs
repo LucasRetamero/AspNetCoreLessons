@@ -1,3 +1,4 @@
+
 namespace Dominio.Entity
 {
     public class Category

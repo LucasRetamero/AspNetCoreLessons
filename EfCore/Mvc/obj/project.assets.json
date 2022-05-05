@@ -662,6 +662,10 @@
       "Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.4"
+        },
         "compile": {
           "bin/placeholder/Dominio.dll": {}
         },
@@ -1922,6 +1926,7 @@
     "net7.0": [
       "Dados >= 1.0.0",
       "Dominio >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.4"
     ]
   },
@@ -1969,6 +1974,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.4, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",

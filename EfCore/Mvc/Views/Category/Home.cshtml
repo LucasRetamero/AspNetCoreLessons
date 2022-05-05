@@ -1,0 +1,32 @@
+@model IEnumerable<Dominio.Entity.Category>
+
+@{
+    ViewData["Title"] = "Category Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Category Page</h1>
+    <A href="/Category/Save"><button class="btn btn-success">Add new category</button></a>
+</div>
+
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Code</th>
+      <th scope="col">Name</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+      <th scope="row">@item.id</th>
+      <td>@item.name</td>
+      <td><a href="/Category/Edit/@item.id"><button class="btn btn-warning">Edit</button></a></td>
+    </tr>  
+    }
+    
+  </tbody>
+</table>
