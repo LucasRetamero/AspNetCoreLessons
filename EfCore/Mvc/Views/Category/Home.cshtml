@@ -24,7 +24,14 @@
     <tr>
       <th scope="row">@item.id</th>
       <td>@item.name</td>
-      <td><a href="/Category/Edit/@item.id"><button class="btn btn-warning">Edit</button></a></td>
+      <td>
+       <table>
+        <tr>
+         <td><a href="/Category/Edit/@item.id"><button class="btn btn-warning">Edit</button></a>
+            <a href="/Category/Remove/@item.id"><button class="btn btn-danger">Remove</button></a></td>
+        </tr>
+       </table>
+       </td>
     </tr>  
     }
     

@@ -38,6 +38,15 @@ namespace Mvc.Controllers
       return View("Save", category); 
     }
 
+    [HttpGet]
+    public async Task<IActionResult> Remove(int id)
+    {
+      var category = await _context.category.FirstOrDefaultAsync(c => c.id == id);
+                     _context.category.Remove(category);
+                     await _context.SaveChangesAsync();
+      return RedirectToAction("Home");   
+    }
+
     [HttpPost]
     public async Task<IActionResult> Save(Category _category)
     {
